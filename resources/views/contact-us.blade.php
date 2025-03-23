@@ -1,11 +1,10 @@
-@extends("layouts.app")
+@extends('layouts.app')
 
-@section("title")
-About Us
+@section('title')
+    Contact Us
 @endsection
 
-@section("content")
-<div>
-    Home
-</div>
+@section('content')
+    <livewire:contact-us />
+    <livewire:contact-list />
 @endsection
